@@ -1,0 +1,21 @@
+h3{
+    color: green;
+    font-size: 30px;
+    text-decoration: overline ;
+    font-family:'Courier New', Courier, monospace;
+}
+.master{
+    /* display: none; */
+    /* visibility: hidden; */
+}
+.blog{
+    margin: 40px;
+    border: 10px solid orangered;
+    box-shadow: 10px 10px 20px gold;
+}
+
+.dark{
+    border: 1px solid yellowgreen;
+    display: block;
+     /* text-decoration: underline; */
+}

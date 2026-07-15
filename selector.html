@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+            *{              
+                margin:0; 
+                padding:0;
+            }
+            
+            #mixed{
+                color: green;
+            }
+
+            #eighth,li{
+                color: red;
+                font-size: 20px;
+            }
+
+            /* p{
+                color: blue;
+                font-size: 30px;
+                border: 2px solid lightblue;
+            } */
+
+            .holud,.yellow{
+                color: rgb(100, 148, 2);
+                background-color: yellow;
+                width: 500px;
+            }
+
+            .bold{
+                font-weight: 800;
+            }
+            input{
+                font-size: 30px;
+            }
+            input[ type="password"]{
+             color: brown;
+            }
+            .css{
+                color:rgb(116, 6, 220);
+            }
+            .blog{
+                background-color: aqua;
+            }
+    </style>
+</head>
+<body>
+    <h1 id="mixed">Example Mixed Selector</h1>
+    <p>MY first <span class="css">line css is</span> selector</p>
+    <p>MY second line css is selector</p>
+    <p>MY third line css is selector</p>              <!-- This is a single-line comment -->
+    <p>MY fourth line css is selector</p>
+    <p id="eighth">MY eighth line css is selector</p>
+    <p>MY ninth line css is selector</p>
+    <p class="yellow holud">MY tenth line css is selector</p>
+    <p class="holud bold">MY eleventh line css is selector</p>
+    <p>MY twelfth line css is selector</p>
+    <p class="bold">MY thirteenth line css is selector</p>
+    <p>MY fourteenth line css is selector</p>
+    <p>MY fifteenth line css is selector</p>\
+    <ol>
+        <li>element selector</li>
+        <li>class selector</li>
+        <li class="bold holud">id selector</li>
+        <li>universal selector</li>
+        <li>attribute selector</li>
+      <form action="">
+            <input type="text">
+            <input type="password" name="" id="">
+         
+      </form>   
+      <div class="blog">
+        <h1>My blog</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ex illum quae est minima facere eveniet ducimus facilis 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ex illum quae est minima facere eveniet ducimus facilis 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ex illum quae est minima facere eveniet ducimus facilis 
+        dolore numquam a, itaque eligendi libero commodi. Soluta
+              dolore vel omnis? Iste, modi?</p>
+      </div> 
+
+</body>
+</html>
