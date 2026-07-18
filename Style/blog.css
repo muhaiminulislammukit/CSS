@@ -1,3 +1,18 @@
+.header{
+     height: 300px;
+     color: azure;
+     background-image: url('../Image/tiger.jpeg');
+     /* background:fixed red; */
+     /* background-color: blue; */
+     /* background-image: url('gk.jpg'); */
+     /* background-repeat: no-repeat; */
+     /* background-repeat: repeat-x; */
+     /* background-repeat: repeat-y; */
+     /* background-size: auto; */
+     /* background-size: cover; */
+     /* background-size: contain; */
+     background-size: 500px;
+}
 h3{
     color: green;
     font-size: 30px;
@@ -19,4 +34,10 @@ h3{
     display: block;
     
      /* text-decoration: underline; */
+} 
+.deleniti{
+    border: 2px solid red ;
+    height: 50px;
+    /* display: block; */
+    display: inline-block;
 }
