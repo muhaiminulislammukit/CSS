@@ -1,10 +1,20 @@
 *{
     margin: 0%;
     padding: 0px;
+
+}
+p{
+  width: 300px;
+  border: 15px solid rgba(196, 221, 11, 0.722);
+  padding: 50px;
+  margin: 20px;
 }
 header{
     background-color: aqua;
     background-image:url(../Image/gk.jpg);
+    /* background-size: 500px; */
+    height: 200px ;
+    width: auto;
      /* background-repeat: no-repeat;
   background-position: right top;
   background-attachment: fixed; */
@@ -26,6 +36,7 @@ width: 300px;
   padding: 50px;
   margin: 20px;
 }
+
 #sit{
 width: 300px;
   border: 15px solid green;
@@ -36,6 +47,14 @@ width: 300px;
 width: 300px;
   border: 15px solid green;
   padding: 50px;
+  margin: 20px;
+}
+#king{
+  width: 300px;
+  border: 10px solid green;
+  padding: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
   margin: 20px;
 }
 .gk2{
@@ -51,3 +70,9 @@ p .gk3{
   margin: 20px;
 
 }
+.list{
+
+  color: aqua;
+  background-color: blue;
+}
+  
