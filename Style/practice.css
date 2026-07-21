@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0px;
+}
+header{
+    background-color: aqua;
+    background-image:url(../Image/gk.jpg);
+     /* background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed; */
+}
+h1{
+    color: green;
+    font-size: 50px;
+
+}
+.div{
+width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+#input{
+width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+#sit{
+width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.gk1{
+width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.gk2{
+width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+p .gk3{
+    width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+
+}
