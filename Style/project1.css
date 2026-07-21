@@ -1,0 +1,19 @@
+p{
+ color: blue;
+ border: 10px solid salmon;
+ margin: 20px;
+ font-family: 'Courier New', Courier, monospace;
+ font-size: medium;
+ font-style: italic;
+}
+.mark{
+font-size: xx-large;
+padding: 0px;
+border:20px solid gold;
+border: radius 10px;;
+}
+#untill{
+font-display: auto;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: block ;
+}
